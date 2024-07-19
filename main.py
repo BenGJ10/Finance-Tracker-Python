@@ -94,7 +94,7 @@ def plot_transactions(df):
     plt.show()
 
 def main():
-    while True:
+    while True:  # Continously Running
         print("\n1. Add a new transaction.")
         print("2. View transactions and summary within a range.")
         print("3. Exit")
