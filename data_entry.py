@@ -3,6 +3,8 @@ from datetime import datetime
 date_format = "%d-%m-%Y"
 categories = {"I": "Income", "E" : "Expense"}
 
+# different functions for the tracker
+
 def get_date(prompt, allow_default = False):
     date_str = input(prompt)
     if allow_default and not date_str:  # if user didnt gave any input
